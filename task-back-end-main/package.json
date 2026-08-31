@@ -1,0 +1,29 @@
+{
+  "name": "taskmanager-pro-backend",
+  "version": "1.0.0",
+  "description": "MSSpace Global — TaskManager Pro Backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js",
+    "seed": "node src/seeders/seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^8.0.6",
+    "resend": "^6.12.2",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7",
+    "winston": "^3.13.0"
+  },
+  "optionalDependencies": {
+    "pg": "^8.13.0",
+    "pg-hstore": "^2.3.4"
+  }
+}
